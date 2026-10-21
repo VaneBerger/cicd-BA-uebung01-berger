@@ -17,7 +17,15 @@ class CalculatorTest {
     void add_shouldSumTwoIntegers() {
         Calculator c = new Calculator();
         assertEquals(5, c.add(2, 3));
-        // TODO: weitere Grenzfälle (z. B. negative Zahlen)
+    }
+    @Test void sub_diffNum(){
+        Calculator c = new Calculator();
+        assertEquals(6, c.subtract(10, 4));
+    }
+    @Test 
+    void add_negativeNumbers(){
+        Calculator c = new Calculator();
+        assertEquals(-3, c.add(-6, 3));
     }
 
     @Test
