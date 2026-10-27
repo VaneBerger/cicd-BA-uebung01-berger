@@ -305,6 +305,10 @@ git branch -vv   | git rev-parse --abbrev-ref HEAD
 mvn -q -DskipTests=false test
 ```
 
+  ## Übung 1
+  - Autor: Vanessa Berger
+  - Besonderheit: Git im Semesterprojekt regelmäßig genutzt
+
 ---
 
 
